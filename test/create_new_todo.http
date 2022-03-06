@@ -1,0 +1,10 @@
+@base_url=http://localhost:8081
+
+POST {{base_url}}/todos
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJUYW5hdGlwIiwiZXhwIjoxNjQ2NTcyNzI1fQ.VcayFd2lFQCYbiTqGJYr4c9HNrjWTec5htOfLjJiGrE
+TransactionID: x123
+
+{
+    "text": "test 2"
+}}
